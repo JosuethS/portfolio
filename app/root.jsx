@@ -7,6 +7,8 @@ import {
 } from "@remix-run/react";
 import "./tailwind.css";
 
+import styles from "./styles/index.css";
+
 export function Layout({ children }) {
   return (
     <html lang="en">
@@ -24,6 +26,8 @@ export function Layout({ children }) {
     </html>
   );
 }
+
+
 
 export default function App() {
   return <Outlet />;

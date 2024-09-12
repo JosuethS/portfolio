@@ -1,0 +1,43 @@
+.topbarfilecss {
+  background-color: #141414;
+  padding: 1%;
+  margin-left: .6%;
+  margin-right: .2%;
+  visibility: visible;
+}
+
+.topbar {
+  background-color: #141414; /* Background color for the top bar */
+  color: white;
+  height: 6vh;
+  width: calc(100vw - 5vw); /* Adjust width to exclude the navbar */
+  position: fixed;
+  left: 5vw; /* Align the top bar to start after the navbar */
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1%; /* Optional: add padding */
+  z-index: 1000; /* Ensure it sits on top of other elements */
+}
+
+#run-btn {
+  color: rgb(9, 161, 60);
+  font-size: 35px;
+}
+
+#run-btn:hover {
+  color: rgb(30, 83, 48);
+  font-size: 35px;
+  transition: .2s;
+}
+
+.highlight {
+  background-color: #272727;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
+
+

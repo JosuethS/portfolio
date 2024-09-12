@@ -17,7 +17,7 @@ export default function Index() {
       <div className="main-content">
         <Topbar />
         <div className="content">
-          home
+          about
         </div>
       </div>
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
